@@ -6,7 +6,9 @@
     "node": "18"
   },
   "resolutions": {
-    "postcss": "8.4.31"
+    "postcss": "8.4.31",
+    "autoprefixer": "10.4.14",
+    "postcss-flexbugs-fixes": "5.0.2"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",
