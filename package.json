@@ -7,16 +7,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "preinstall": "npx npm-force-resolutions"
-  },
-  "resolutions": {
-    "postcss": "8.4.31",
-    "autoprefixer": "10.4.14",
-    "postcss-flexbugs-fixes": "5.0.2",
-    "postcss-preset-env": "6.7.0"
+    "eject": "react-scripts eject"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",
@@ -27,12 +20,8 @@
     "react-dom": "^17.0.1",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.0",
-    "web-vitals": "^0.2.4",
-    "fraction.js": "^4.1.1"
-  },
-  "devDependencies": {
-    "npm-force-resolutions": "^0.0.10"
+    "react-scripts": "5.0.1",
+    "web-vitals": "^0.2.4"
   },
   "eslintConfig": {
     "extends": [
