@@ -6,10 +6,11 @@
     "node": "18"
   },
   "resolutions": {
-    "postcss": "8.4.31",
-    "autoprefixer": "10.4.14",
-    "postcss-flexbugs-fixes": "5.0.2"
-  },
+  "postcss": "8.4.31",
+  "autoprefixer": "10.4.14",
+  "postcss-flexbugs-fixes": "5.0.2",
+  "postcss-preset-env": "6.7.0"
+},
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.1",
